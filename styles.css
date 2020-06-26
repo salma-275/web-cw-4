@@ -1,7 +1,6 @@
-html, body{
-    margin: 0;
-    height: 100%;
-}
+html, body
+    {margin: 0;
+    height: 100%;}
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
@@ -13,22 +12,45 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
-.sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
-}
 
-.header{
-    /* pxالطول هنا يجب ان يكون 80 */
-}
+div
+{border-radius: 10px ;}
 
-.main{
 
-}
+.fixe
+{display: flex;
+height: 100%;}
 
-a{
-    color: darkgray;
-    /* اجعل شكل اللنك من غير خط اسفل الكلام */
-}
+.sidebar
+ {/* pxالعرض هنا يجب ان يكون 120 */
+width: 120px;
+background-color: #1d3557;}
+
+.header
+    {/* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color:#0077b6;}
+
+.main
+    {height:80% ;
+     background-color: #457b9d;}
+
+a
+     {color: darkgray;
+     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+     text-decoration: none ;}
+a:hover
+{color: white;}
+
+
+.HM
+     {height: 100%;}
+
+
+
+
+
+
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
@@ -36,13 +58,14 @@ a{
 
 
 
-h1{
-    margin: 0;
-    margin-right: 5px;
-}
+h1
+{ margin: 0;
+ margin-right: 5px;}
 
-h2{
-    margin: 0;
-    margin-left: 5px;
-}
+
+h2
+{ margin: 0;
+ margin-left: 5px;}
+
+p{text-align: center;}
 
